@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="com.niit.JSPwithHibernate">
+
+<class table="shoes" name="shoes">
+
+<id name="sno" type="int"/>
+
+<property name="brand" type="string"/>
+
+<property name="price" type="string"/>
+
+</class>
+
+</hibernate-mapping>
